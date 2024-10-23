@@ -1,0 +1,197 @@
+/* font-family: "Playfair Display", serif;
+font-family: "Poppins", sans-serif;  */
+:root {
+  --branding-color: #191e28;
+  --secondary-color: #fffff0;
+  --tertiary-color: rgba(25, 30, 40, 0.2);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  color: var(--secondary-color);
+  opacity: 0.9;
+}
+h2 h3 h4 h5 h6 p{
+  font-family: var(--default-font-family);
+}
+.row img {
+  background-color: antiquewhite;
+  
+}
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 30px;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  opacity: 0.8;
+  line-height: 3;
+  color: var(--secondary-color);
+}
+.btn-branding {
+  color: var(--branding-color);
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 27px;
+  padding: 15px 30px;
+  background: var(--secondary-color);
+  border-radius: 3px;
+  opacity: 0.9;
+  transition: all 150ms ease-in-out;
+}
+.btn-branding:hover {
+ color: grey; 
+ background: var(--secondary-color);
+
+}
+.btn-branding-border {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 27px;
+  padding: 15px 30px;
+
+  border-radius: 3px;
+  opacity: 0.9;
+  transition: all 150ms ease-in-out;
+}
+.btn-branding-border:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+}
+
+.btn-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section {
+  padding: 30px 30px;
+}
+.about-section p{
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+.about-section-content {
+margin: 30px;
+}
+.profile-image {
+  margin-top: 60px;
+}
+.attr-link {
+  font-size: 10px;
+  font-family: var(--default-font-family);
+  color:#717272;
+}
+.text {
+   font-family: var(--default-font-family);
+  font-size: 10px;
+    color:#717272;
+}
+
+.row h3{
+  margin-top: 20px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+  font-size: 24px;
+
+}
+.row p {
+   font-family: var(--default-font-family);
+  font-size: 14px;
+}
+.weather-app {
+  margin-bottom: 10px;
+}
+.contact-link {
+   font-family: var(--default-font-family);
+  display: flex;
+  justify-content: center;
+}
+.contact-headings {
+  font-family: var(--default-font-family);
+  font-weight: 500;
+}
+
+.email-icon {
+  font-size: 50px;
+}
+.git-contact {
+font-size: 50px;
+text-decoration: none;
+color: var(--branding-color);
+
+
+}
+.navbar-brand .navbar-nav li a {
+  font-family: var(--default-font-family);
+}
+.active {
+  color: var(--branding-color) !important;
+}
+
+footer {
+  background: var(--tertiary-color);
+  padding: 10px 100px;
+  border-radius: 10px;
+  margin: 0 40px 40px 40px;
+  
+
+}
+footer h3 {
+  color: var(--branding-color);
+  font-weight: 400;
+}
+.social-links a {
+margin: 0 20px;
+color: var(--branding-color);
+background-color: var(--tertiary-color);
+padding: 10px 14px;
+
+text-decoration: none;
+font-size: 18px;
+border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 48px;
+  }
+  .hero {
+    padding: 80px 30px;
+  }
+  .hero p {
+    line-height: 2;
+    font-size: 16px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+    
+  }
+  .about-section .profile-image {
+    margin: 0;
+  }
+  .about-section-content {
+    margin-bottom: 0;
+  }
+  .contact-button {
+    margin-bottom: 0;
+    
+  }
+  
+}
