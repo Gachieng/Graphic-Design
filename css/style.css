@@ -20,6 +20,7 @@ h2 h3 h4 h5 h6 p {
 .row img {
   background-color: antiquewhite;
 }
+
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -183,5 +184,9 @@ footer h3 {
   }
   .contact-button {
     margin-bottom: 0;
+  }
+  .btn-cta {
+    display: block;
+    text-align: center;
   }
 }
